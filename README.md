@@ -9,18 +9,18 @@ $ sudo apt install git
 $ git clone https://github.com/62bit/unixguide.git
 ```
 
-## Step 1 (Install Programs):
+## General programs:
 ```
-$ sudo apt update && sudo apt install -y lxde gcc g++ gdb emacs git clang-format speedcrunch flameshot rofi neofetch
+$ sudo apt update && sudo apt install -y lxde gcc g++ gdb emacs playerctl git clang-format speedcrunch flameshot rofi neofetch
 ```
 	
 ```
 $ sudo snap install spotify discord code whatsdesk
 ```
 
-## Step 2 (LXDE setup):
-Replace file on path : `/home/username/.config/lxsession/LXDE/autostart` with `unixguide/.configs/autostart` <br/>
-Replace file on path : `/home/username/.config/openbox/` with `unixguide/.configs/lxde-rc.xml` .
+## LXDE setup:
+Replace file on path : `/home/username/.config/lxsession/LXDE/autostart` with `unixguide/lxde/autostart` <br/>
+Replace file on path : `/home/username/.config/openbox/` with `unixguide/lxde/lxde-rc.xml` .
 
 ## Step 3 (Emacs setup):
 Create `init.el` file in `~/.emacs.d/` and put these lines in it:
@@ -43,7 +43,7 @@ Copy `unixguide/emacs/black-theme.el` to `~/.emacs.d/`.  <br/>
 Copy `unixguide/.clang-format` to our home directory. <br/>
 Restart Emacs and select `black` theme.
 
-## Step 4 (Bash setup):
+## Bash setup:
 Create and run this script:
 ```
 if [ ! -a ~/.inputrc ]; then echo '$include /etc/inputrc' > ~/.inputrc; fi
@@ -56,4 +56,7 @@ alias cls=clear
 alias dbg=gdb
 ```
 
-## TODO : i3 setup
+## i3 Setup:
+`sudo apt install i3 i3blocks` <br/>
+Set i3 configuration to `unixguide/i3/config`. <br/>
+Add `unixguide/i3/i3blocks.conf` to `~/.config/i3/` <br/>
