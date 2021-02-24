@@ -57,6 +57,6 @@ alias dbg=gdb
 ```
 
 ## i3 Setup:
-`sudo apt install i3 i3blocks` <br/>
+Install i3 and i3blocks `sudo apt install i3 i3blocks` <br/>
 Set i3 configuration to `unixguide/i3/config`. <br/>
-Add `unixguide/i3/i3blocks.conf` to `~/.config/i3/` <br/>
+Add `unixguide/i3/i3blocks.conf` to `~/.config/i3/`. <br/>
