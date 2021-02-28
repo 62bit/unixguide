@@ -37,7 +37,7 @@
     <primaryMonitor/>
   </placement>
   <theme>
-    <name>Clearlooks-3.4</name>
+    <name>Artwiz-boxed</name>
     <titleLayout>NLIMC</titleLayout>
     <!--
       available characters are NDSLIMC, each can occur at most once.
@@ -181,13 +181,11 @@
         <command>rofi -show run -theme sidebar</command>
       </action>
     </keybind>
-
-   <keybind key="W-S-s">
+    <keybind key="W-S-s">
       <action name="Execute">
         <command>flameshot gui</command>
       </action>
     </keybind>
-
     <keybind key="XF86AudioPlay">
       <action name="Execute">
         <command>playerctl play-pause</command>
@@ -301,6 +299,12 @@
     </keybind>
     <!-- Keybindings for window switching -->
     <keybind key="A-Tab">
+      <action name="NextWindow"/>
+    </keybind>
+	 <keybind key="A-Left">
+      <action name="PreviousWindow"/>
+     </keybind>
+	 <keybind key="A-Right">
       <action name="NextWindow"/>
     </keybind>
     <keybind key="A-S-Tab">
