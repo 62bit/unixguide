@@ -11,7 +11,7 @@ $ git clone https://github.com/62bit/unixguide.git
 
 ## General programs:
 ```
-$ sudo apt update && sudo apt install -y lxde gcc g++ gdb emacs playerctl git clang-format speedcrunch flameshot rofi neofetch
+$ sudo apt update && sudo apt install -y lxde gcc g++ gdb emacs playerctl git clang-format speedcrunch flameshot rofi neofetch gpaste
 ```
 	
 ```
