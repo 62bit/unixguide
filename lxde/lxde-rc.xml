@@ -211,6 +211,12 @@
         <command>terminator</command>
       </action>
     </keybind>
+    <keybind key="W-grave">
+      <action name="Execute">
+        <command>gpaste-client ui</command>
+      </action>
+    </keybind>
+    
     <!-- Keybindings for desktop switching -->
     <keybind key="C-A-Left">
       <action name="DesktopLeft">
