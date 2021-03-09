@@ -97,6 +97,11 @@
 (global-set-key (kbd "C-S-c") 'quick-copy-line)
 (global-set-key (kbd "C-S-d") 'duplicate-current-line)
 
+(use-package dired-x
+  :ensure nil)
+(global-set-key (kbd "M-d") 'dired-jump)
+
+
 (require 'cc-mode)
 ;; format before save
 ;;(add-hook 'before-save-hook 'clang-format-buffer)
