@@ -16,6 +16,8 @@
 
 (setq backup-directory-alist '(("" . "/home/username/backup")))
 
+(add-hook 'dired-mode-hook (lambda () (text-scale-increase 2)))
+
 (cua-mode t)
 
 (setq auto-save-default nil)
