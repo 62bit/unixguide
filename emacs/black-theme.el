@@ -46,7 +46,8 @@
        (type    "#A0B8A0")
        (var     "#A0B8A0")
        (warning "#ff0000")
-       (warning2 "#ff8800"))
+       (warning2 "#ff8800")
+       (hlinecolor "#1f1f1f"))
    (custom-theme-set-faces
    'black
         `(default ((,class (:background ,bg1 :foreground ,fg1))))
@@ -65,7 +66,7 @@
         `(term-color-black ((,class (:foreground ,fg2 :background nil))))
         `(region ((,class (:background ,fg1 :foreground ,bg1))))
         `(highlight ((,class (:foreground ,fg3 :background ,bg3))))
-	`(hl-line ((,class (:background  ,bg2))))
+	`(hl-line ((,class (:background  ,hlinecolor))))
 	`(fringe ((,class (:background ,bg2 :foreground ,fg4))))
 	`(cursor ((,class (:background ,bg3))))
         `(show-paren-match-face ((,class (:background ,warning))))
